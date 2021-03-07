@@ -1,4 +1,4 @@
-# ign-gazebo-worlds
+# ign-gazebo-models
 
 Note: Some files (mesh expecially) of mini drone are licensed and can't be used for commercial purpose without the crediting the author.
 
