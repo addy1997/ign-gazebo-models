@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+<!--
+This SDF file was automatically generated using a template modified 
+and authored by Adwait Naik. The moment of interia is not supposed to be changed.
+-->
+    <model name="wood_block">
+      <pose>1.0 2.0 3.0 0 0 0</pose> 
+      <link name="link">
+        <inertial>
+          <inertia>
+           <ixx>6.531830066020671e-06</ixx>
+           <ixy>-9.289556032355845e-22</ixy>
+           <ixz>-6.382039770510119e-22</ixz>
+           <iyy>6.496788321917068e-06</iyy>
+           <iyz>-1.1996538048028797e-21</iyz>
+           <izz>2.0235216718785673e-06</izz>
+          </inertia>
+          <mass>0.0015785408903207848</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+          	<mesh>
+             <uri>textured.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+          	<mesh>
+            <uri>textured.dae</uri>
+	        </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+</sdf>
